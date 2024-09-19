@@ -5,6 +5,10 @@ header, footer {
     padding: 2rem;
 }
 
+body {
+    background-image: linear-gradient(#58638E, pink);
+}
+
 img {
     max-width: 300px;
     filter: blur(2px);
