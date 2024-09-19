@@ -18,4 +18,19 @@ img:hover {
     margin: 2rem;
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
+    border: 1px solid #333;
+    background-color: pink;
+    transition: transform 0.75s ease-in-out;
+}
+
+.transform:hover {
+    transform: rotate(-5deg);
+    transition: transform 0.75s ease-in-out;
+}
+
+.content {
+    background-color: #0A093B;
+    overflow: auto;
+    padding: 2px;
+    color: #817FB2;
 }
