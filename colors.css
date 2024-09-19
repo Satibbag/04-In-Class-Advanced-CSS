@@ -1,0 +1,21 @@
+header, footer {
+    background-color: #58638E;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+img {
+    max-width: 300px;
+    filter: blur(2px);
+}
+img:hover {
+    filter: brightness(1.5);
+}
+
+.card {
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
